@@ -1,0 +1,822 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+
+
+}
+
+.contianer {
+    width: 90%;
+    margin: auto;
+    /*problem in top*/
+
+}
+
+.homephoto .photo {
+    width: 100%;
+    height: 100vh;
+    background-image: url(photo/human-3782189_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.homephoto .photo .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage .header {
+    width: 100%;
+    padding: 20px 80px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.homepage .header p {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(238, 38, 38);
+    margin-left: 100px;
+}
+
+.homepage .header a {
+    text-decoration: none;
+    font-size: 15px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+.homepage .header .hm {
+    color: rgb(238, 38, 38);
+}
+
+.homepage .header .con {
+    margin-left: 50px;
+}
+
+
+.homephoto .photo .layer .text {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.homephoto .photo .layer .text .hi {
+    font-size: 25px;
+    font-weight: 800;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.homephoto .photo .layer .text .na {
+    font-size: 50px;
+    font-weight: 800;
+    color: rgb(238, 38, 38);
+    margin-bottom: 20px;
+}
+
+.homephoto .photo .layer .text .jo {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(96, 92, 92);
+}
+
+/*second page
+
+
+
+
+
+
+*/
+
+.secondpage {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+.secondpage .photoside {
+    width: 50%;
+}
+
+.secondpage .photo {
+    width: 300px;
+
+    border: 5px solid rgb(68, 68, 68);
+    border-radius: 2%;
+    margin-left: 200px;
+
+}
+
+.secondpage .photo img {
+    width: 100%;
+    transform: translate(10px, 10px);
+    border-radius: 2%;
+
+}
+
+.secondpage .text {
+    margin-left: 80px;
+    width: 50%;
+    margin-left: 0;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.secondpage .text h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.secondpage .text span {
+    color: rgb(238, 38, 38);
+}
+
+.secondpage .text .bigp {
+    margin-bottom: 20px;
+    color: #a7a6a6;
+}
+
+.secondpage .text .dash {
+    color: #a7a6a6;
+    margin-bottom: 20px;
+}
+
+.secondpage .text .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.secondpage .text .down .rigth {
+    width: 50%;
+}
+
+.secondpage .text .down .left {
+    width: 50%;
+}
+
+.secondpage .text .down span {
+    color: #a7a6a6;
+}
+
+.secondpage .text button {
+    padding: 10px;
+    background-color: rgb(238, 38, 38);
+    border: none;
+    border-radius: 5%;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.secondpage .text .mar {
+    margin-left: 10px
+}
+
+/*
+
+
+
+
+
+third page
+
+
+*/
+
+
+.thirdpage {
+    width: 100%;
+    text-align: center;
+    background-color: #EEE;
+}
+
+.thirdpage .contianer {
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    margin-bottom: 25px;
+}
+
+.thirdpage .contianer h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.thirdpage .contianer .dashup {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.thirdpage .contianer .bigdash {
+    width: 200px;
+    border: rgb(238, 38, 38) solid 0.5px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.thirdpage .contianer .dash {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+}
+
+.thirdpage .contianer .parent {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.thirdpage .contianer .child1 {
+    width: 25%;
+}
+
+.thirdpage .contianer .child2 {
+    width: 25%;
+}
+
+.thirdpage .contianer .child3 {
+    width: 25%;
+    position: relative;
+
+}
+
+.thirdpage .contianer .child4 {
+    width: 25%;
+}
+
+.thirdpage .contianer .parent i {
+    margin-bottom: 10px;
+    color: rgb(238, 38, 38);
+}
+
+.thirdpage .contianer .parent p {
+    margin-bottom: 10px;
+}
+
+/*
+
+
+
+fourpage
+
+
+
+
+
+*/
+
+.fourpage {
+    width: 100%;
+    text-align: center;
+}
+
+.fourpage .contianer {
+    margin-top: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.fourpage .contianer h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.fourpage .contianer .dashup {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.fourpage .contianer .bigdash {
+    width: 200px;
+    border: rgb(238, 38, 38) solid 0.5px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.fourpage .contianer .dash {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.fourpage .contianer .textparent {
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.fourpage .contianer .textparent .red {
+    color: rgb(238, 38, 38);
+}
+
+.fourpage .contianer .photoparent {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.fourpage .contianer .photoparent .photo {
+    width: 32%;
+    height: 47%;
+    position: relative;
+}
+
+.fourpage .contianer .photoparent .photo .img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.fourpage .contianer .photoparent .photo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.fourpage .contianer .photoparent .photo .layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.564);
+    opacity: 0;
+    position: absolute;
+    transition-property: all;
+    transition-duration: 0.5s;
+
+}
+
+.fourpage .contianer .photoparent .photo .layer:hover {
+    opacity: 1;
+}
+
+/*
+
+
+
+fivepage
+
+
+
+
+
+*/
+
+.fivepage {
+    width: 100%;
+    text-align: center;
+    background-color: #EEE;
+}
+
+.fivepage .contianer {
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fivepage .contianer .child {
+    width: 22%;
+}
+
+.fivepage .contianer .child i {
+    color: rgb(238, 38, 38);
+    scale: 1.4;
+    margin-top: 20px;
+}
+
+.fivepage .contianer .child h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+
+
+
+sixpage
+
+
+
+
+
+*/
+
+.sixpage {
+    width: 100%;
+    text-align: center;
+
+}
+
+.sixpage .contianer {
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 25px;
+
+}
+
+.sixpage .contianer h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sixpage .contianer .dashup {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.sixpage .contianer .bigdash {
+    width: 200px;
+    border: rgb(238, 38, 38) solid 0.5px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.sixpage .contianer .dash {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.sixpage .contianer .tri {
+    width: 80%;
+    height: 300px;
+    background-color: #EEE;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.sixpage .contianer .tri .photo {
+    float: left;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sixpage .contianer .tri .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+
+.sixpage .contianer .tri .photo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.sixpage .contianer .tri .text {
+    width: 70%;
+    float: right;
+    height: 100%;
+
+}
+
+.sixpage .contianer .tri .text .child {
+    width: 100%;
+}
+
+.sixpage .contianer .tri .text .child i {
+    color: rgb(238, 38, 38);
+}
+
+.sixpage .contianer .tri .text .child .star {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.sixpage .contianer .tri .text .child .star i {
+    color: gold;
+    scale: 1.5;
+    margin-right: 8px;
+}
+
+.sixpage .contianer .tri .text h3 {
+    margin-top: 60px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.sixpage .contianer .tri .text .p1 {
+    margin-top: 5px;
+    text-align: left;
+}
+
+.sixpage .contianer .tri .text .p2 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.sixpage .contianer .tri .shape {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-left: 100px solid rgb(238, 38, 38);
+    border-top: 100px solid rgb(238, 38, 38);
+
+}
+
+/*
+
+
+
+sevenpage
+
+
+
+
+
+*/
+
+.sevenpage {
+    width: 100%;
+    text-align: center;
+    background-color: #EEE;
+}
+
+.sevenpage .contianer {
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 25px;
+
+}
+
+.sevenpage .contianer h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sevenpage .contianer .dashup {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.sevenpage .contianer .bigdash {
+    width: 200px;
+    border: rgb(238, 38, 38) solid 0.5px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.sevenpage .contianer .dash {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.sevenpage .contianer .parent {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.sevenpage .contianer .parent .child {
+    width: 32%;
+    height: 99%;
+    background-color: white;
+}
+
+.sevenpage .contianer .parent .child .photo {
+    width: 100%;
+    height: 50%;
+}
+
+.sevenpage .contianer .parent .child .photo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.sevenpage .contianer .parent .child .text {
+    width: 100%;
+    height: 50%;
+    text-align: left;
+    padding: 15px;
+}
+
+.sevenpage .contianer .parent .child .text p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #a7a6a6;
+}
+
+.sevenpage .contianer .parent .child .text a {
+    text-decoration: none;
+    color: black;
+}
+
+.sevenpage .contianer .parent .child .text i {
+    color: rgb(238, 38, 38);
+}
+
+
+/*
+
+
+
+eigthpage
+
+
+
+
+
+*/
+
+.eigthpage {
+    width: 100%;
+    text-align: center;
+}
+
+.eigthpage .contianer {
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 25px;
+
+}
+
+.eigthpage .contianer h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.eigthpage .contianer .dashup {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.eigthpage .contianer .bigdash {
+    width: 200px;
+    border: rgb(238, 38, 38) solid 0.5px;
+    margin: auto;
+    margin-bottom: 1px;
+}
+
+.eigthpage .contianer .dash {
+    width: 100px;
+    border: rgb(238, 38, 38) solid 0.20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.eigthpage .contianer .form {
+    width: 90%;
+    margin: auto;
+}
+
+.eigthpage .contianer .form .parent {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 300px;
+
+}
+
+.eigthpage .contianer .form .parent .child1 {
+    width: 49%;
+}
+
+.eigthpage .contianer .form .parent .child2 {
+    width: 49%;
+}
+
+.eigthpage .contianer .form .parent .child3 {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #a7a6a6;
+    border-radius: 5%;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    border: 1px solid #a7a6a6;
+    border-radius: 5%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.eigthpage button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(238, 38, 38);
+    color: white;
+    border: none;
+    border-radius: 5%;
+}
+
+/*
+
+
+
+lastpage
+
+
+
+
+
+*/
+
+.lastpage {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+}
+
+.lastpage .contianer {
+    margin-top: 25px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin-bottom: 25px;
+
+}
+
+.lastpage .contianer i {
+    scale: 1.3;
+    color: white;
+    margin: 20px;
+}
+
+.lastpage .contianer span i {
+    color: rgb(238, 38, 38);
+}
+
+.lastpage .contianer p {
+
+    color: white;
+    margin: 20px;
+}
+
+.lastpage .contianer p span {
+    color: rgb(238, 38, 38);
+}
